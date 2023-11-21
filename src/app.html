@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>City of Atlanta Permit Data: 2021-2023</title>
+	%sveltekit.head%
+	<style>
+		html,
+		body {
+			background-color: var(--calcite-ui-foreground-2);
+			padding: 0;
+			margin: 0;
+			width: 100vw;
+			height: 100vh;
+		}
+	</style>
+	<!-- Load the ArcGIS Maps SDK for JavaScript -->
+	<link rel="stylesheet" href="https://js.arcgis.com/4.28/esri/themes/dark/main.css" />
+	<script src="https://js.arcgis.com/4.28/"></script>
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">%sveltekit.body%</div>
+</body>
+
+</html>

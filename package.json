@@ -1,0 +1,23 @@
+{
+	"name": "kcdpractical-webmap",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.27.4",
+		"svelte": "^4.0.5",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"@arcgis/core": "^4.28.10",
+		"@arcgis/map-components": "^4.28.0-beta.40",
+		"@esri/calcite-components": "^1.10.0",
+		"@stencil/core": "^4.7.2"
+	}
+}
